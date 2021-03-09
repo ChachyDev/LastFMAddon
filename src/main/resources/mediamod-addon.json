@@ -1,8 +1,8 @@
 {
   "addons": {
-    "example-mediamod-addon": {
-      "addonClass": "com.mediamod.example.ExampleAddon",
-      "displayName": "Example Addon",
+    "lastfm-addon": {
+      "addonClass": "club.chachy.lastfm.LastFMAddon",
+      "displayName": "LastFM",
       "apiVersion": 1
     }
   }

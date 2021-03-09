@@ -26,8 +26,8 @@ plugins {
 
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-group 'com.mediamod.example'
-version '1.0-SNAPSHOT'
+group 'club.chachy.lastfm'
+version '1.0'
 sourceCompatibility = targetCompatibility = "1.8"
 
 minecraft {
@@ -53,6 +53,7 @@ dependencies {
     compileOnly ('com.github.MediaModMC:MediaMod:rewrite-SNAPSHOT') {
         changing = true
     }
+    embed "com.github.jkcclemens:khttp:-SNAPSHOT"
 
     // If you wish to include a dependency in your jar use the "embed" method
     // embed 'com.example:ExampleDependency:1.0-SNAPSHOT'
