@@ -53,7 +53,9 @@ dependencies {
     compileOnly ('com.github.MediaModMC:MediaMod:rewrite-SNAPSHOT') {
         changing = true
     }
-    embed "com.github.jkcclemens:khttp:-SNAPSHOT"
+    embed("com.github.jkcclemens:khttp:-SNAPSHOT") {
+        exclude module: "kotlin-stdlib"
+    }
 
     // If you wish to include a dependency in your jar use the "embed" method
     // embed 'com.example:ExampleDependency:1.0-SNAPSHOT'
